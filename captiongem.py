@@ -28,10 +28,10 @@ def validate_length(prompt: str) -> bool:
 
 def generate_caption(prompt: str) -> str:
     openai.organization = "org-ANXc2oe4bjcZRmI0hDgLUHdj"
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = "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"
 
     enriched_prompt = f"Generate an engaging caption for {prompt}: "
-    print(enriched_prompt)
+    # print(enriched_prompt)
     response = openai.Completion.create(engine="text-davinci-003", prompt=enriched_prompt, max_tokens=32)
     caption = response["choices"][0]["text"].strip()
 
@@ -43,12 +43,12 @@ def generate_caption(prompt: str) -> str:
 
 def generate_hashtags(prompt: str) -> List[str]:
     openai.organization = "org-ANXc2oe4bjcZRmI0hDgLUHdj"
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = "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"
 
     enriched_prompt = f"Generate hashtags for {prompt}: "
     response = openai.Completion.create(engine="text-davinci-003", prompt=enriched_prompt, max_tokens=50)
     hashtags = response["choices"][0]["text"].strip()
-    hashtags_array = re.split("\n|\s|,", hashtags)
+    hashtags_array = re.split("\s", hashtags)
     return hashtags_array
 
 if __name__ == "__main__":
