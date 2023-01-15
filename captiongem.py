@@ -28,7 +28,7 @@ def validate_length(prompt: str) -> bool:
 
 def generate_caption(prompt: str) -> str:
     openai.organization = "org-ANXc2oe4bjcZRmI0hDgLUHdj"
-    openai.api_key = "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"
+    openai.api_key = "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"
 
     enriched_prompt = f"Generate an engaging caption for {prompt}: "
     # print(enriched_prompt)
@@ -43,7 +43,7 @@ def generate_caption(prompt: str) -> str:
 
 def generate_hashtags(prompt: str) -> List[str]:
     openai.organization = "org-ANXc2oe4bjcZRmI0hDgLUHdj"
-    openai.api_key = "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"
+    openai.api_key = "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"
 
     enriched_prompt = f"Generate hashtags for {prompt}: "
     response = openai.Completion.create(engine="text-davinci-003", prompt=enriched_prompt, max_tokens=50)
