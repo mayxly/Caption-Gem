@@ -1,7 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from captiongem import generate_caption, generate_hashtags
-
+from mangum import Mangum
 app = FastAPI()
+handler = Mangum(app) #Handler function that Lambda will envoke that will reroute input to each get we wrote
 MAX_INPUT_LENGTH = 32
 
 @app.get("/generate_caption")
