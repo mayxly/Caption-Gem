@@ -1,4 +1,4 @@
-# caption-gem
+# Caption Gem
 Caption Gem is your personal AI Content Creator! This web application takes in any description about your social media content, and generates a trendy and unique caption along with multiple relevant hashtags to add to your post. Social media marketing just got 1000x faster and easier! 
 
 This was made using Python and OpenAI's API. I constructed my own API using FastAPI and connected it with the front end application using React.js, Next.js, CSS and Bootstrap. Have a look!
