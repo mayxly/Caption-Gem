@@ -8,5 +8,8 @@ This was made using Python and OpenAI's API. I constructed my own API using Fast
 <br/>
 <br/>
 ![image](https://user-images.githubusercontent.com/72419841/212598761-400dd6bd-dd4d-46a8-b1ef-4f5f4b98c052.png)
-![image](https://user-images.githubusercontent.com/72419841/212598935-cdb37c6a-4d0e-4f21-811e-e9fa178e0861.png)
-![image](https://user-images.githubusercontent.com/72419841/212598950-d611001c-43a4-43f3-bc1e-cb1da2d3259c.png)
+![image](https://user-images.githubusercontent.com/72419841/212599087-1b865d4c-9c17-42a0-9f6d-096f0fee8769.png)
+![image](https://user-images.githubusercontent.com/72419841/212599313-c8d78031-1479-46aa-ae87-93911e7ddf04.png)
+![image](https://user-images.githubusercontent.com/72419841/212599475-d6eac528-73c5-4443-8bb7-357ce94f72c0.png)
+![image](https://user-images.githubusercontent.com/72419841/212599675-8af391d9-50b4-4b2a-a566-ab5ce8add7aa.png)
+
